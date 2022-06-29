@@ -20,12 +20,12 @@ public class oops{
     public static void main(String[] args){
         System.out.println("This is the custom object creation here!");
 
-        Employee vijay = new Employee();    //initialize new Employee Object here
+        Employee vijay = new Employee();                                 //initialize new Employee Object here
         Employee john = new Employee();
 
         //First Employee details here
         
-        vijay.id = 101;                           //providing properties or attributes here to the Employee
+        vijay.id = 101;                                                  //providing properties or attributes here to the Employee
         vijay.name = "Vijay Vangala"; 
         vijay.salary = 34000;
         
@@ -37,7 +37,7 @@ public class oops{
         john.salary = 15000;
        
         System.out.println(("first employee details here").toUpperCase());
-        System.out.println(vijay.id);       //Printing attributes or properties here
+        System.out.println(vijay.id);                                            //Printing attributes or properties here
         System.out.println(vijay.name);
         System.out.println(" ");
 
@@ -47,11 +47,11 @@ public class oops{
         System.out.println(" ");
 
         System.out.println("First employee output from method:");
-        vijay.stdDetails();                 //From the method printing we are printing properties here
+        vijay.stdDetails();                                                       //From the method printing we are printing properties here
 
+        
         int salary = vijay.getSalary();
         System.out.println(salary);
-
         System.out.println(" ");
 
         
@@ -61,7 +61,7 @@ public class oops{
 
         salary = john.getSalary();
         System.out.println(salary);     
-        john.getSalary();
+                                                                        //john.getSalary();
 
         System.out.println(john.getSalary());
 
